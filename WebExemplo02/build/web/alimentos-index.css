@@ -1,0 +1,58 @@
+/*
+alimentos-index.cs
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 98%;
+    margin: 0 10px;
+}
+
+table thead tr, table tfoot tr{
+    background-color: #007bff;
+    color: black;
+    height: 33px;
+    font-family: comic sans;
+    font-size: 19px;
+}
+
+    
+
+table tbody tr{
+    color: darkorange;
+    font-size: 19px;
+    font-family: sans-serif;
+    height: 25px;
+}
+
+table tbody tr:nth-child(even){background-color: #CCC}
+table tbody tr:nth-child(odd){background-color: #6c757d}
+
+.botao-cadastro{
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    background-color: #6f42c1;
+    color: white;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    color: slateblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
