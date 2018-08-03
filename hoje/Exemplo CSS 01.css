@@ -1,0 +1,30 @@
+.botao:hover{
+	background-color: green;
+	color: black;
+	text-transform: uppercase;
+}
+.botao {
+	display: block;
+	background-color: #EACE21;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 200px;
+	height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid deeppink;
+	border-bottom-color: blue;
+	border-top-color: pink;
+}
+.imagem{
+	background-image: url("../imagens/f2.jpg");
+	height: 250px;
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: top right;
+
+}
+.campo-texto{
+	background-color: #949494;
+}

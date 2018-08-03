@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.lista{
+	text-align: center;
+	margin: 0 15%;
+}
+
+table{
+	width: 100%;
+}
+
+thead tr, tfoot tr{
+	height: 45px;
+	font-size: 19px;
+	background-color: darkmagenta;
+	color: white;
+}
+
+table tr:nth-child(odd) td{
+	background-color: #eeeeee;
+}
+
+table tr:nth-child(even) td{
+	background-image: url("../imagens/f2.jpg");
+	background-size: 100%;
+}
